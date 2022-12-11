@@ -6,8 +6,6 @@ def rev(n):
   r=r*10+d
   n=n//10
  return r
-
-
 a=int(input("enter the no.: "))
 if a==rev(a):
  print("no. is palindrome")
